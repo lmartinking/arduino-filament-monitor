@@ -1,12 +1,13 @@
-Arduino 3D Printer Feeder Monitor
-=================================
+Arduino 3D Printer Filament Monitor
+===================================
 
 Some simple code to monitor the filament feed to a 3D printer.
 
 When it is detected that the filament is no longer moving (but the feeder motor is moving),
 the control pin will be triggered. 
 
-I wrote this for a friend who has a bunch of 3D printers running continuously.
+I wrote this for a friend who has a bunch of 3D printers running continuously and designed a
+small attachement with two optical encoders, but needed code :-)
 
 Hardware Requirements
 ---------------------
